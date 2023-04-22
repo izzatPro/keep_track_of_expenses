@@ -1,11 +1,15 @@
 import CostForm from './CostForm';
 import './NewCost.css'
 
-const NewCost = () => {
+const NewCost = (props) => {
+
+  const upDateCost = (submitInfo) => {
+    props.upDateCost(submitInfo)
+  }
+ 
   return (
     <div className='new-cost'>
-        <CostForm/>
-      
+        <CostForm upDateCost={upDateCost}/>
     </div>
   )
 }

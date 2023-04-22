@@ -6,6 +6,15 @@
   text-align: left;
 }
 
+.new-cost__display{
+  display: none !important;
+}
+
+.new-cost__width{
+  width: 45% !important;
+  display: flex !important;
+}
+
 .new-cost__control label {
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -23,4 +32,5 @@
 
 .new-cost__actions {
   text-align: left;
+  width: 100%;
 }
