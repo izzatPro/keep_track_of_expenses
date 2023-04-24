@@ -92,7 +92,7 @@ const CostForm = (props) => {
             <button type="submit">
                 Добавить {clazzz === 'new-cost__display' && ' Новый'} Расход
             </button>
-            <button className={clazzz === 'new-cost__display' ? 'new-cost__display' : ''} onClick={cancel} type="button">
+            <button className={clazzz} onClick={cancel} type="button">
                 Отмена
             </button>
         </div>

@@ -1,5 +1,4 @@
 import './Card.css'
-import CostsFilter from '../CostFilter/CostsFilter';
 
 const Card = (props) => {
   const classes = 'card ' + props.className;
